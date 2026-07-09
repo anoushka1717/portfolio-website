@@ -1,120 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anoushka Codes</title>
 
-<title>Anoushka Codes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
 
-<style>
+        body{
+            background:#eef5ff;
+            font-family:'Segoe UI',sans-serif;
+        }
 
-body{
-    background:#eef5ff;
-    font-family:'Segoe UI',sans-serif;
-}
+        .navbar{
+            background:#0d6efd;
+            box-shadow:0 5px 20px rgba(0,0,0,.15);
+        }
 
-.navbar{
-    background:#0d6efd;
-    box-shadow:0 5px 20px rgba(0,0,0,.15);
-}
+        .navbar-brand{
+            color:white !important;
+            font-size:28px;
+            font-weight:bold;
+        }
 
-.navbar-brand{
-    color:white !important;
-    font-size:28px;
-    font-weight:bold;
-}
+        .hero-banner{
+            margin:35px auto;
+        }
 
-.hero{
-    background:linear-gradient(135deg,#0d6efd,#4facfe,#c2e9fb);
-    color:white;
-    text-align:center;
-    padding:90px 20px;
-}
+        .hero-content{
 
-.hero h1{
-    font-size:55px;
-    font-weight:bold;
-}
+            background:linear-gradient(135deg,#2563EB,#3B82F6,#60A5FA);
 
-.hero p{
-    font-size:20px;
-    margin-top:10px;
-}
+            color:white;
 
-.hero .btn{
-    margin-top:25px;
-    padding:12px 35px;
-    border-radius:30px;
-    font-weight:bold;
-}
+            border-radius:28px;
 
-.section-title{
-    text-align:center;
-    color:#0d47a1;
-    font-weight:bold;
-    margin:60px 0 40px;
-}
+            padding:45px;
 
-.card{
-    border:none;
-    border-radius:22px;
-    overflow:hidden;
-    transition:.3s;
-    box-shadow:0 12px 25px rgba(13,110,253,.12);
-}
+            box-shadow:0 18px 40px rgba(37,99,235,.25);
 
-.card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 20px 35px rgba(13,110,253,.25);
-}
+        }
 
-.project-image{
-    width:100%;
-    height:230px;
-    object-fit:cover;
-}
+        .hero-content h1{
 
-.card-body h4{
-    color:#0d47a1;
-    font-weight:bold;
-}
+            font-weight:800;
 
-.project-id{
-    color:#6c757d;
-}
+        }
 
-.download-btn{
-    background:#0d6efd;
-    border:none;
-    border-radius:30px;
-}
+        .hero-content h4{
 
-.download-btn:hover{
-    background:#0b5ed7;
-}
+            color:#E0F2FE;
 
-footer{
-    margin-top:70px;
-    background:#0d6efd;
-    color:white;
-    text-align:center;
-    padding:30px;
-}
+            margin-top:15px;
 
-.empty{
-    height:230px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:#dbeafe;
-    color:#0d47a1;
-    font-weight:bold;
-    font-size:20px;
-}
+        }
 
-</style>
+        .hero-content p{
+
+            font-size:17px;
+
+            margin-top:20px;
+
+            line-height:1.7;
+
+        }
+
+        .hero-content .btn{
+
+            border-radius:30px;
+
+            padding:12px 28px;
+
+            font-weight:bold;
+
+            margin-top:10px;
+
+        }
+
+        .code-box{
+
+            background:rgba(255,255,255,.12);
+
+            border:1px solid rgba(255,255,255,.25);
+
+            border-radius:20px;
+
+            padding:20px;
+
+            text-align:left;
+
+            backdrop-filter:blur(10px);
+
+            box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+        }
+
+        .code-box pre{
+
+            color:white;
+
+            margin:0;
+
+            font-size:18px;
+
+            font-family:Consolas,monospace;
+
+        }
+
+        .section-title{
+
+            text-align:center;
+
+            color:#0d47a1;
+
+            font-weight:bold;
+
+            margin:50px 0 30px;
+
+        }
+
+        .card{
+
+            border:none;
+
+            border-radius:20px;
+
+            overflow:hidden;
+
+            transition:.3s;
+
+            box-shadow:0 10px 25px rgba(13,110,253,.12);
+
+        }
+
+        .card:hover{
+
+            transform:translateY(-8px);
+
+            box-shadow:0 18px 35px rgba(13,110,253,.25);
+
+        }
+
+        .project-image{
+
+            width:100%;
+
+            height:220px;
+
+            object-fit:cover;
+
+        }
+
+        .no-image{
+
+            height:220px;
+
+            display:flex;
+
+            justify-content:center;
+
+            align-items:center;
+
+            background:#dbeafe;
+
+            color:#0d47a1;
+
+            font-weight:bold;
+
+        }
+
+        .download-btn{
+
+            width:100%;
+
+            border-radius:30px;
+
+        }
+
+        footer{
+
+            margin-top:70px;
+
+            background:#0d6efd;
+
+            color:white;
+
+            text-align:center;
+
+            padding:25px;
+
+        }
+
+    </style>
 
 </head>
 
@@ -122,105 +201,133 @@ footer{
 
 <nav class="navbar navbar-expand-lg">
 
-<div class="container">
+    <div class="container">
 
-<a class="navbar-brand" href="#">
-💙 Anoushka Codes
-</a>
+        <a class="navbar-brand" href="#">
+            &lt;AC/&gt; Anoushka Codes
+        </a>
 
-</div>
+    </div>
 
 </nav>
 
-<section class="hero">
+<div class="container hero-banner">
 
-<div class="container">
+    <div class="hero-content">
 
-<h1>Welcome to My Portfolio</h1>
+        <div class="row align-items-center">
 
-<p>
-Explore my Django, Python and Software Projects.
-</p>
+            <div class="col-lg-7">
 
-<a href="#projects" class="btn btn-light">
-Browse Projects
-</a>
+                <h1>Building Ideas into Code.</h1>
+
+                <h4>Explore • Download • Learn</h4>
+
+                <p>
+                    Welcome to <strong>Anoushka Codes</strong>. Explore my collection
+                    of Python, Django, Android and Web Development projects.
+                    Download them and discover what I've been building.
+                </p>
+
+                <a href="#projects" class="btn btn-light">
+                    Browse Projects
+                </a>
+
+            </div>
+
+            <div class="col-lg-5 mt-4 mt-lg-0">
+
+                <div class="code-box">
+
+<pre>
+while(True){
+
+    Learn();
+
+    Build();
+
+    Share();
+
+}
+</pre>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </div>
-
-</section>
 
 <div class="container" id="projects">
 
-<h2 class="section-title">
-Latest Projects
-</h2>
+    <h2 class="section-title">
+        Latest Projects
+    </h2>
 
-<div class="row g-4">
+    <div class="row g-4">
 
-{% for i in pr %}
+        {% for i in pr %}
 
-<div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6">
 
-<div class="card h-100">
+            <div class="card h-100">
 
-{% if i.Image %}
+                {% if i.Image %}
 
-<img src="{{ i.Image.url }}" class="project-image">
+                    <img src="{{ i.Image.url }}" class="project-image">
 
-{% else %}
+                {% else %}
 
-<div class="empty">
-No Image
-</div>
+                    <div class="no-image">
+                        No Image Available
+                    </div>
 
-{% endif %}
+                {% endif %}
 
-<div class="card-body">
+                <div class="card-body">
 
-<h4>{{ i.Name }}</h4>
+                    <h4>{{ i.Name }}</h4>
 
-<p class="project-id">
-Project ID : {{ i.FileID }}
-</p>
+                    <p class="text-muted">
+                        Project ID : {{ i.FileID }}
+                    </p>
 
-<a href="{{ i.File.url }}" download class="btn btn-primary download-btn w-100">
+                    <a href="{{ i.File.url }}" download class="btn btn-primary download-btn">
+                        ⬇ Download
+                    </a>
 
-⬇ Download Project
+                </div>
 
-</a>
+            </div>
 
-</div>
+        </div>
 
-</div>
+        {% empty %}
 
-</div>
+        <div class="col-12">
 
-{% empty %}
+            <div class="alert alert-primary text-center">
 
-<div class="col-12">
+                No projects uploaded yet.
 
-<div class="alert alert-info text-center">
+            </div>
 
-No projects uploaded yet.
+        </div>
 
-</div>
+        {% endfor %}
 
-</div>
-
-{% endfor %}
-
-</div>
+    </div>
 
 </div>
 
 <footer>
 
-<h5>💙 Anoushka Codes</h5>
+    <h5>&lt;AC/&gt; Anoushka Codes</h5>
 
-<p>
-Made with Django • Bootstrap • Render
-</p>
+    <p>Building Ideas into Code.</p>
 
 </footer>
 
