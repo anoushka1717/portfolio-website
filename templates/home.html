@@ -1,0 +1,15 @@
+<html>
+<body>
+{% for i in pr %}
+{{ i.FileID }}<br>
+{{ i.Name }}<br>
+<a href="{{ i.File.url }}" download>DOWNLOAD</a>
+<hr>
+{% if i.Image %}
+<img src="{{i.Image.url}}" width=200
+{% else %}
+No Image found
+{% endif %}
+{% endfor %}
+</body>
+</html>
